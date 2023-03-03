@@ -1,0 +1,75 @@
+
+/* .ImagePart{
+   max-width: 30%;
+  border-radius: 50%;
+   background-color: blanchedalmond;
+   
+}
+.ImagePart img{
+   width: 60%;
+   height: 100%;
+   overflow: visible;
+} */
+
+
+.container {
+   width: 150px;
+   height: 500px;
+   position: relative;
+   margin: 30px;
+
+ }
+ .box {
+   width: 80%;
+   height: 80%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   opacity: 3;
+   /* background:url("../portfolio/image/backgroundImage.jpg"); */
+   background-repeat: no-repeat;
+   background-image: url("./image/backgroundImage.jpg");
+   background-size: cover;
+   box-shadow: 0 0 11px rgba(33,33,33,.2);
+   transition: transform .2s;
+   
+ }
+ .overlay {
+   z-index: 0;
+   margin: 30px;
+   /* opacity: 1; */
+   /* background:url("../portfolio/image/userImage-removebg-preview.png");
+   background-size: cover;
+   background-repeat: no-repeat; */
+
+ }
+ .box:hover{
+   background-color: rgb(11, 47, 130);
+   transform: scale(1.2);
+ }
+
+ .contentPage{
+  border: 0.1px solid black;
+  margin-left: 20px;
+  width: 50px;
+  height: 300px;
+  border-radius: 3px;
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
+   transition: transform .2s;
+
+
+ }
+ .contentPage:hover{
+  transform: scale(1.2);
+ }
+ .githubImage{
+  background-color:rgba(114, 31, 192, 0.69);
+ }
+ .websiteImage{
+  background-color:rgb(144, 206, 244);
+ }
+ .certificateImage{
+  background-color: antiquewhite;
+ }
+
+ 
